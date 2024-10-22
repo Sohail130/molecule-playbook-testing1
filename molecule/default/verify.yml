@@ -1,6 +1,6 @@
 ---
 - name: Verify
-  hosts: all
+  hosts: localhost
 
   tasks:
     - name: Verify Apache is serving web requests.
